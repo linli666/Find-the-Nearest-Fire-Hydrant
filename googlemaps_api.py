@@ -34,7 +34,7 @@ def get_address(geocode):
     address = reverse_geocode_result[0]['formatted_address']
     return address
 
-#origin = get_Geocode('219 N 35th Street, Philadelphia PA')
+#origin = get_Geocode('101 N 39th Street, Philadelphia PA')
 #destination = get_Geocode('3140 Chestnut, Philadelphia PA')
 #final = get_distance_time(origin,destination,'driving')
 #addr = get_address([39.8680, -75.0427])
